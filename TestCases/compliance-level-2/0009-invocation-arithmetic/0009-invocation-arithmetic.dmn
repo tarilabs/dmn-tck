@@ -32,7 +32,7 @@
             <semantic:formalParameter typeRef="number" name="p"/>
             <semantic:formalParameter typeRef="number" name="r"/>
             <semantic:formalParameter typeRef="number" name="n"/>
-            <semantic:literalExpression expressionLanguage="http://www.omg.org/spec/FEEL/20140401" typeRef="number">
+            <semantic:literalExpression expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeRef="number">
                 <semantic:text>(p*r/12)/(1-(1+r/12)**-n)</semantic:text>
             </semantic:literalExpression>
         </semantic:encapsulatedLogic>
