@@ -13,13 +13,13 @@
     </semantic:itemDefinition>
     <semantic:decision name="MonthlyPayment" id="d_MonthlyPayment">
         <semantic:variable typeRef="number" name="MonthlyPayment"/>
-        <semantic:informationRequirement id="_986bd0ad-6bda-4d15-a6d5-0f1e99a4d6bf">
+        <semantic:informationRequirement id="ea247b65-a327-46b0-b405-cdd6308c1604">
             <semantic:requiredInput href="#i_Loan"/>
         </semantic:informationRequirement>
-        <semantic:informationRequirement id="c79260ff-8704-44b5-8c71-37bfea3c625f">
+        <semantic:informationRequirement id="ee65dbf6-6406-4504-b1cc-cd6c8fc48362">
             <semantic:requiredInput href="#i_fee"/>
         </semantic:informationRequirement>
-        <semantic:knowledgeRequirement id="b99eca18-274f-437c-a3a6-c52ca8294cc4">
+        <semantic:knowledgeRequirement id="_1684f08c-413b-4ecd-8caf-d922500940bd">
             <semantic:requiredKnowledge href="#b_PMT"/>
         </semantic:knowledgeRequirement>
         <semantic:literalExpression>
@@ -58,15 +58,15 @@
             <dmndi:DMNShape dmnElementRef="i_fee" id="_cb28c255-91cd-4c01-ac7b-1a9cb1ecdb11_s4">
                 <dc:Bounds height="60.0" width="153.0" x="577.0" y="331.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNEdge dmnElementRef="b99eca18-274f-437c-a3a6-c52ca8294cc4" id="_cb28c255-91cd-4c01-ac7b-1a9cb1ecdb11_e1">
+            <dmndi:DMNEdge dmnElementRef="_1684f08c-413b-4ecd-8caf-d922500940bd" id="_cb28c255-91cd-4c01-ac7b-1a9cb1ecdb11_e1">
                 <di:waypoint x="227.0" y="331.0"/>
                 <di:waypoint x="440.0" y="211.0"/>
             </dmndi:DMNEdge>
-            <dmndi:DMNEdge dmnElementRef="_986bd0ad-6bda-4d15-a6d5-0f1e99a4d6bf" id="_cb28c255-91cd-4c01-ac7b-1a9cb1ecdb11_e2">
+            <dmndi:DMNEdge dmnElementRef="ea247b65-a327-46b0-b405-cdd6308c1604" id="_cb28c255-91cd-4c01-ac7b-1a9cb1ecdb11_e2">
                 <di:waypoint x="440.0" y="331.0"/>
                 <di:waypoint x="440.0" y="211.0"/>
             </dmndi:DMNEdge>
-            <dmndi:DMNEdge dmnElementRef="c79260ff-8704-44b5-8c71-37bfea3c625f" id="_cb28c255-91cd-4c01-ac7b-1a9cb1ecdb11_e3">
+            <dmndi:DMNEdge dmnElementRef="ee65dbf6-6406-4504-b1cc-cd6c8fc48362" id="_cb28c255-91cd-4c01-ac7b-1a9cb1ecdb11_e3">
                 <di:waypoint x="653.0" y="331.0"/>
                 <di:waypoint x="440.0" y="211.0"/>
             </dmndi:DMNEdge>

@@ -14,7 +14,7 @@
     </semantic:itemDefinition>
     <semantic:decision name="Approval" id="_3b2953a3-745f-4d2e-b55d-75c8c5ae653c">
         <semantic:variable typeRef="tApproval_1" name="Approval" id="_726bba98-e108-4ee4-b22b-9b9f4da43a88"/>
-        <semantic:informationRequirement id="_45b0b1b7-8456-4633-8e62-39a60a0b0c97">
+        <semantic:informationRequirement id="b9f76e4e-288a-4237-9220-ab5caf2853e5">
             <semantic:requiredInput href="#_41effb45-b3c4-46ac-b1da-122b3e428a98"/>
         </semantic:informationRequirement>
         <semantic:decisionTable hitPolicy="RULE ORDER" outputLabel="Approval" typeRef="tApproval_1" id="_d81c5a51-b7c3-493c-ae8a-07ff798fb1bd">
@@ -62,7 +62,7 @@
             <dmndi:DMNShape dmnElementRef="_41effb45-b3c4-46ac-b1da-122b3e428a98" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_s2">
                 <dc:Bounds height="60.0" width="153.0" x="151.0" y="331.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNEdge dmnElementRef="_45b0b1b7-8456-4633-8e62-39a60a0b0c97" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e1">
+            <dmndi:DMNEdge dmnElementRef="b9f76e4e-288a-4237-9220-ab5caf2853e5" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e1">
                 <di:waypoint x="227.0" y="331.0"/>
                 <di:waypoint x="227.0" y="211.0"/>
             </dmndi:DMNEdge>

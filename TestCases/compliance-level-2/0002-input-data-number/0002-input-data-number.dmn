@@ -2,7 +2,7 @@
 <semantic:definitions namespace="https://github.com/agilepro/dmn-tck" name="0002-input-data-number" id="_0002-input-data-number" xmlns="https://github.com/agilepro/dmn-tck" xmlns:semantic="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns:dmn11="http://www.omg.org/spec/DMN/20151101/dmn.xsd" xmlns:rss="http://purl.org/rss/2.0/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:trisofeed="http://trisotech.com/feed" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:triso="http://www.trisotech.com/2015/triso/modeling" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <semantic:decision name="Yearly Salary" id="d_YearlySalary">
         <semantic:variable typeRef="number" name="Yearly Salary"/>
-        <semantic:informationRequirement id="ed00c2b4-31a5-4848-9c70-89e9ce645783">
+        <semantic:informationRequirement id="_94534179-9eda-4522-b970-aaffcb4e0c97">
             <semantic:requiredInput href="#i_MonthlySalary"/>
         </semantic:informationRequirement>
         <semantic:literalExpression>
@@ -21,7 +21,7 @@
             <dmndi:DMNShape dmnElementRef="i_MonthlySalary" id="_0002-input-data-number_s2">
                 <dc:Bounds height="60.0" width="153.0" x="151.0" y="331.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNEdge dmnElementRef="ed00c2b4-31a5-4848-9c70-89e9ce645783" id="_0002-input-data-number_e1">
+            <dmndi:DMNEdge dmnElementRef="_94534179-9eda-4522-b970-aaffcb4e0c97" id="_0002-input-data-number_e1">
                 <di:waypoint x="227.0" y="331.0"/>
                 <di:waypoint x="227.0" y="211.0"/>
             </dmndi:DMNEdge>

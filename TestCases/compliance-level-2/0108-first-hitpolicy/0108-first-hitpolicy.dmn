@@ -11,13 +11,13 @@
     </semantic:itemDefinition>
     <semantic:decision name="Approval" id="_3b2953a3-745f-4d2e-b55d-75c8c5ae653c">
         <semantic:variable typeRef="tApproval" name="Approval" id="_726bba98-e108-4ee4-b22b-9b9f4da43a88"/>
-        <semantic:informationRequirement id="_903ba4c7-2f02-48cb-ae8b-c131edfcfcc3">
+        <semantic:informationRequirement id="_70cb0712-3439-47de-9d2a-2124c52ab84f">
             <semantic:requiredInput href="#_5a4bdb64-f0ef-4978-9e03-6f1ae64a1f17"/>
         </semantic:informationRequirement>
-        <semantic:informationRequirement id="f9b1e672-2dac-493f-ab24-aa427b649a33">
+        <semantic:informationRequirement id="_141c68b1-39ad-45ac-a29d-d691ec57879c">
             <semantic:requiredInput href="#_41effb45-b3c4-46ac-b1da-122b3e428a98"/>
         </semantic:informationRequirement>
-        <semantic:informationRequirement id="f6a61788-3772-43d0-b5ef-76bc7d044e97">
+        <semantic:informationRequirement id="_8844434d-7d67-4a6b-8a3a-0a2946a461a4">
             <semantic:requiredInput href="#_8ff18665-84e9-49f2-a8df-8981b1844549"/>
         </semantic:informationRequirement>
         <semantic:decisionTable hitPolicy="FIRST" outputLabel="Approval" typeRef="tApproval" id="_d81c5a51-b7c3-493c-ae8a-07ff798fb1bd">
@@ -132,15 +132,15 @@
             <dmndi:DMNShape dmnElementRef="_8ff18665-84e9-49f2-a8df-8981b1844549" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_s4">
                 <dc:Bounds height="60.0" width="153.0" x="576.0" y="331.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNEdge dmnElementRef="_903ba4c7-2f02-48cb-ae8b-c131edfcfcc3" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e1">
+            <dmndi:DMNEdge dmnElementRef="_70cb0712-3439-47de-9d2a-2124c52ab84f" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e1">
                 <di:waypoint x="439.0" y="331.0"/>
                 <di:waypoint x="439.0" y="211.0"/>
             </dmndi:DMNEdge>
-            <dmndi:DMNEdge dmnElementRef="f9b1e672-2dac-493f-ab24-aa427b649a33" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e2">
+            <dmndi:DMNEdge dmnElementRef="_141c68b1-39ad-45ac-a29d-d691ec57879c" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e2">
                 <di:waypoint x="226.0" y="331.0"/>
                 <di:waypoint x="439.0" y="211.0"/>
             </dmndi:DMNEdge>
-            <dmndi:DMNEdge dmnElementRef="f6a61788-3772-43d0-b5ef-76bc7d044e97" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e3">
+            <dmndi:DMNEdge dmnElementRef="_8844434d-7d67-4a6b-8a3a-0a2946a461a4" id="_a3ebbd98-af09-42f3-9099-4ae2204a1f54_e3">
                 <di:waypoint x="652.0" y="331.0"/>
                 <di:waypoint x="439.0" y="211.0"/>
             </dmndi:DMNEdge>

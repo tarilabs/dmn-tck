@@ -2,13 +2,13 @@
 <semantic:definitions exporter="DMN Modeler; Method and Style trisofix.xslt" exporterVersion="5.0.32.2; 1.0" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="http://www.trisotech.com/definitions/_791b8e95-b7a7-40e7-9dd1-5ff12364f340" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" name="simple P table 1" triso:logoChoice="Default" xsi:schemaLocation="http://www.omg.org/spec/DMN/20151101/dmn.xsd ../../dmn.xsd" id="_791b8e95-b7a7-40e7-9dd1-5ff12364f340" xmlns="http://www.trisotech.com/definitions/_791b8e95-b7a7-40e7-9dd1-5ff12364f340" xmlns:semantic="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns:dmn11="http://www.omg.org/spec/DMN/20151101/dmn.xsd" xmlns:rss="http://purl.org/rss/2.0/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:trisofeed="http://trisotech.com/feed" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:triso="http://www.trisotech.com/2015/triso/modeling" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <semantic:decision name="Approval Status" id="_3b2953a3-745f-4d2e-b55d-75c8c5ae653c">
         <semantic:variable typeRef="string" name="Approval Status"/>
-        <semantic:informationRequirement id="_21818010-cd22-460f-8941-2e8ae60233f3">
+        <semantic:informationRequirement id="f4929f9c-c679-4412-b125-b1a18d34f3ef">
             <semantic:requiredInput href="#_5a4bdb64-f0ef-4978-9e03-6f1ae64a1f17"/>
         </semantic:informationRequirement>
-        <semantic:informationRequirement id="a906e916-7a14-440e-9852-7c3846d385cd">
+        <semantic:informationRequirement id="dd1b0718-bf4c-490d-a7be-67cf452e0cd5">
             <semantic:requiredInput href="#_41effb45-b3c4-46ac-b1da-122b3e428a98"/>
         </semantic:informationRequirement>
-        <semantic:informationRequirement id="_2c0168e1-8ad3-4b48-9f02-818352ae9010">
+        <semantic:informationRequirement id="_45e391cf-27c6-4005-a900-c844eda703ca">
             <semantic:requiredInput href="#_8ff18665-84e9-49f2-a8df-8981b1844549"/>
         </semantic:informationRequirement>
         <semantic:decisionTable hitPolicy="PRIORITY" outputLabel="Approval Status" preferredOrientation="Rule-as-Row">
@@ -117,15 +117,15 @@
             <dmndi:DMNShape dmnElementRef="_8ff18665-84e9-49f2-a8df-8981b1844549" id="_791b8e95-b7a7-40e7-9dd1-5ff12364f340_s4">
                 <dc:Bounds height="60.0" width="153.0" x="576.0" y="331.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNEdge dmnElementRef="_21818010-cd22-460f-8941-2e8ae60233f3" id="_791b8e95-b7a7-40e7-9dd1-5ff12364f340_e1">
+            <dmndi:DMNEdge dmnElementRef="f4929f9c-c679-4412-b125-b1a18d34f3ef" id="_791b8e95-b7a7-40e7-9dd1-5ff12364f340_e1">
                 <di:waypoint x="439.0" y="331.0"/>
                 <di:waypoint x="439.0" y="211.0"/>
             </dmndi:DMNEdge>
-            <dmndi:DMNEdge dmnElementRef="a906e916-7a14-440e-9852-7c3846d385cd" id="_791b8e95-b7a7-40e7-9dd1-5ff12364f340_e2">
+            <dmndi:DMNEdge dmnElementRef="dd1b0718-bf4c-490d-a7be-67cf452e0cd5" id="_791b8e95-b7a7-40e7-9dd1-5ff12364f340_e2">
                 <di:waypoint x="226.0" y="331.0"/>
                 <di:waypoint x="439.0" y="211.0"/>
             </dmndi:DMNEdge>
-            <dmndi:DMNEdge dmnElementRef="_2c0168e1-8ad3-4b48-9f02-818352ae9010" id="_791b8e95-b7a7-40e7-9dd1-5ff12364f340_e3">
+            <dmndi:DMNEdge dmnElementRef="_45e391cf-27c6-4005-a900-c844eda703ca" id="_791b8e95-b7a7-40e7-9dd1-5ff12364f340_e3">
                 <di:waypoint x="652.0" y="331.0"/>
                 <di:waypoint x="439.0" y="211.0"/>
             </dmndi:DMNEdge>

@@ -3,7 +3,7 @@
     <semantic:extensionElements/>
     <semantic:decision name="Advertisement" id="advertisement">
         <semantic:variable typeRef="string" name="Advertisement" id="_7f901e84-f450-4108-8b5e-409742a9e301"/>
-        <semantic:informationRequirement id="_263636b6-c817-4eda-bdfc-c52130045e1c">
+        <semantic:informationRequirement id="_937b0758-6905-4f1d-9874-7b62a2024fdc">
             <semantic:requiredInput href="#inputData_input_1"/>
         </semantic:informationRequirement>
         <semantic:decisionTable hitPolicy="FIRST" outputLabel="Advertisement" typeRef="string" id="decisionTable_1">
@@ -51,7 +51,7 @@
             <dmndi:DMNShape dmnElementRef="inputData_input_1" id="Definitions_1qokm8z_s2">
                 <dc:Bounds height="60.0" width="153.0" x="151.0" y="331.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNEdge dmnElementRef="_263636b6-c817-4eda-bdfc-c52130045e1c" id="Definitions_1qokm8z_e1">
+            <dmndi:DMNEdge dmnElementRef="_937b0758-6905-4f1d-9874-7b62a2024fdc" id="Definitions_1qokm8z_e1">
                 <di:waypoint x="227.0" y="331.0"/>
                 <di:waypoint x="227.0" y="211.0"/>
             </dmndi:DMNEdge>

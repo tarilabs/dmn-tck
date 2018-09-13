@@ -8,7 +8,7 @@
     </semantic:itemDefinition>
     <semantic:decision name="Employment Status Statement" id="d_EmploymentStatusStatement">
         <semantic:variable typeRef="string" name="Employment Status Statement"/>
-        <semantic:informationRequirement id="eaec6f3d-ae61-43f4-b453-a97eff0fe6cb">
+        <semantic:informationRequirement id="f4a0451b-8db5-401a-b9b4-dc31416b6e7d">
             <semantic:requiredInput href="#i_EmploymentStatus"/>
         </semantic:informationRequirement>
         <semantic:literalExpression>
@@ -27,7 +27,7 @@
             <dmndi:DMNShape dmnElementRef="i_EmploymentStatus" id="_0003-input-data-string-allowed-values_s2">
                 <dc:Bounds height="60.0" width="153.0" x="151.0" y="331.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNEdge dmnElementRef="eaec6f3d-ae61-43f4-b453-a97eff0fe6cb" id="_0003-input-data-string-allowed-values_e1">
+            <dmndi:DMNEdge dmnElementRef="f4a0451b-8db5-401a-b9b4-dc31416b6e7d" id="_0003-input-data-string-allowed-values_e1">
                 <di:waypoint x="227.0" y="331.0"/>
                 <di:waypoint x="227.0" y="211.0"/>
             </dmndi:DMNEdge>

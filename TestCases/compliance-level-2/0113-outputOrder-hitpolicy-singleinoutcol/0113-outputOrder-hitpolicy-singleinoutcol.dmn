@@ -20,7 +20,7 @@
     </semantic:itemDefinition>
     <semantic:decision name="Approval Status" id="_3b2953a3-745f-4d2e-b55d-75c8c5ae653c">
         <semantic:variable typeRef="tApprovalStatus_4" name="Approval Status" id="_3cf2bd40-2c83-4e6f-8039-81b391eebf2d"/>
-        <semantic:informationRequirement id="_81162cfb-1195-4b83-9577-baa77d3a087f">
+        <semantic:informationRequirement id="_503ea582-3702-418d-8a71-354cf8cb7729">
             <semantic:requiredInput href="#_41effb45-b3c4-46ac-b1da-122b3e428a98"/>
         </semantic:informationRequirement>
         <semantic:decisionTable hitPolicy="OUTPUT ORDER" outputLabel="Approval Status" typeRef="tApprovalStatus_4" id="_e7995f4c-0575-4579-8119-aa4f5cb262f6">
@@ -72,7 +72,7 @@
             <dmndi:DMNShape dmnElementRef="_41effb45-b3c4-46ac-b1da-122b3e428a98" id="_791b8e95-b7a7-40e7-9dd1-5ff12364f340_s2">
                 <dc:Bounds height="60.0" width="153.0" x="151.0" y="331.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNEdge dmnElementRef="_81162cfb-1195-4b83-9577-baa77d3a087f" id="_791b8e95-b7a7-40e7-9dd1-5ff12364f340_e1">
+            <dmndi:DMNEdge dmnElementRef="_503ea582-3702-418d-8a71-354cf8cb7729" id="_791b8e95-b7a7-40e7-9dd1-5ff12364f340_e1">
                 <di:waypoint x="227.0" y="331.0"/>
                 <di:waypoint x="227.0" y="211.0"/>
             </dmndi:DMNEdge>

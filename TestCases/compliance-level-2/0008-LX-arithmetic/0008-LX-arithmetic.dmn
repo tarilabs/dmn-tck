@@ -13,7 +13,7 @@
     </semantic:itemDefinition>
     <semantic:decision name="payment" id="_ebf02591-49c6-448d-9f76-6358b0e011c3">
         <semantic:variable typeRef="number" name="payment"/>
-        <semantic:informationRequirement id="_03f61380-437a-4423-9b76-b54284b134ae">
+        <semantic:informationRequirement id="e5d03276-c21e-40e7-8067-b8096e30d26a">
             <semantic:requiredInput href="#_1f4ae444-2e4e-4d26-b1f7-87a645c3f50a"/>
         </semantic:informationRequirement>
         <semantic:literalExpression>
@@ -32,7 +32,7 @@
             <dmndi:DMNShape dmnElementRef="_1f4ae444-2e4e-4d26-b1f7-87a645c3f50a" id="_1fedf2c0-0f4a-470c-bc66-a15528e8a49a_s2">
                 <dc:Bounds height="60.0" width="153.0" x="151.0" y="331.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNEdge dmnElementRef="_03f61380-437a-4423-9b76-b54284b134ae" id="_1fedf2c0-0f4a-470c-bc66-a15528e8a49a_e1">
+            <dmndi:DMNEdge dmnElementRef="e5d03276-c21e-40e7-8067-b8096e30d26a" id="_1fedf2c0-0f4a-470c-bc66-a15528e8a49a_e1">
                 <di:waypoint x="227.0" y="331.0"/>
                 <di:waypoint x="227.0" y="211.0"/>
             </dmndi:DMNEdge>

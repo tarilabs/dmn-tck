@@ -3,7 +3,7 @@
     <semantic:extensionElements/>
     <semantic:decision name="Salary" id="salary">
         <semantic:variable typeRef="number" name="Salary" id="_d885e484-7fd1-4c6b-8398-13c22eed672f"/>
-        <semantic:informationRequirement id="_604b77ee-5d99-4cea-8692-5dfb12855ce6">
+        <semantic:informationRequirement id="e35499b0-b47b-420a-a45b-1aac87a5380e">
             <semantic:requiredInput href="#inputData_input_1"/>
         </semantic:informationRequirement>
         <semantic:decisionTable aggregation="COUNT" hitPolicy="COLLECT" outputLabel="Salary" typeRef="number" id="decisionTable_1">
@@ -59,7 +59,7 @@
             <dmndi:DMNShape dmnElementRef="inputData_input_1" id="Definitions_11jk5op_s2">
                 <dc:Bounds height="60.0" width="153.0" x="151.0" y="331.0"/>
             </dmndi:DMNShape>
-            <dmndi:DMNEdge dmnElementRef="_604b77ee-5d99-4cea-8692-5dfb12855ce6" id="Definitions_11jk5op_e1">
+            <dmndi:DMNEdge dmnElementRef="e35499b0-b47b-420a-a45b-1aac87a5380e" id="Definitions_11jk5op_e1">
                 <di:waypoint x="227.0" y="331.0"/>
                 <di:waypoint x="227.0" y="211.0"/>
             </dmndi:DMNEdge>
