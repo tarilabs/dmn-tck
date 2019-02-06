@@ -25,6 +25,38 @@ body {
     flex-direction: column;
 }
 
+.jumbotron {
+    height: 100%;
+        background-color: #363636;
+            color: #e4e4e4;
+            vertical-align: middle;
+  background-image: linear-gradient(
+      rgba(100, 100, 100, 0.9), 
+      rgba(0, 0, 0, 0.9)
+    ), url('../images/EwSDje.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.btn-reveal {
+	color: #fff;
+    background-color: #363636;
+}
+
+.Aligner {
+	height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}    
+.Aligner-item--bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .content {
     flex: 1;
     overflow: auto;
